@@ -10,7 +10,7 @@ class data_dock(QtGui.QDockWidget, Ui_datadownload):
         # Set up the user interface
         self.setupUi(self)
 
-        QtCore.QObject.connect(self.btnGo,QtCore.SIGNAL("pressed()"),self.handleButton)
+        QtCore.QObject.connect(self.btn_download,QtCore.SIGNAL("pressed()"),self.handleButton)
 
     def handleButton(self):
-      msgBox.setWindowTitle('go!');
+      QMessafeBox.alert(self, 'go')

@@ -1,3 +1,3 @@
 def classFactory(iface):
-  from mainPlugin import cognicity
+  from main_plugin import cognicity
   return cognicity(iface)

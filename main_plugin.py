@@ -31,5 +31,5 @@ class cognicity:
 
   def run(self):
     # create and show dock widget
-    self.dock_window = datadownloadDialog(self)
+    self.dock_window = data_dock(self)
     self.iface.mainWindow().addDockWidget(Qt.RightDockWidgetArea, self.dock_window)
