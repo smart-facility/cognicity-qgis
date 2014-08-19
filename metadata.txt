@@ -1,0 +1,23 @@
+[general]
+name=cognicity-qgis
+email=tomas@uow.edu.au
+author=Tomas Holderness
+qgisMinimumVersion=2.0
+description=QGIS plugin to connect to an instance of the cognicity data API.
+about=Developed as part of the CogniCity software for the PetaJakarta project. See http://cognicity.info.
+version=0.1
+
+category=Vector
+changelog=0.1 First testing release
+tags=cognicity, petajakarta
+
+homepage=http://cognicity.info
+tracker=https://github.com/smart-facility/cognicity-qgis/issues
+repository=https://github.com/smart-facility/cognicity-qgis
+icon=icon.png
+
+experimental=True
+
+depreciated=False
+
+qgisMaximumVersion=2.2
